@@ -1,8 +1,14 @@
 import React from 'react'
 
-const TopBar = () => {
+const TopBar = ({ onToggleTheme, theme }) => {
   return (
-    <div>TopBar</div>
+    <div className="topbar">
+      {/* ... */}
+      <button onClick={onToggleTheme} className="topbar__theme-btn">
+        {theme === 'dark' ? '☀️' : '🌙'}
+      </button>
+      {/* ... */}
+    </div>
   )
 }
 

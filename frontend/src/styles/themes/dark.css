@@ -1,0 +1,58 @@
+[data-theme="dark"] {
+    /* ── Backgrounds ── */
+    --color-bg-primary: #1C1C1E;
+    --color-bg-secondary: #252527;
+    --color-bg-elevated: #2A2A2C;
+    --color-bg-sidebar: #252527;
+    --color-bg-topbar: #1C1C1E;
+    --color-bg-card: #2A2A2C;
+    --color-bg-hover: rgba(255, 255, 255, 0.05);
+    --color-bg-active: #FFFFFF;
+    --color-bg-input: #2A2A2C;
+    --color-bg-right-panel: #252527;
+
+    /* ── Text ── */
+    --color-text-primary: #FFFFFF;
+    --color-text-secondary: #A0A0A8;
+    --color-text-tertiary: #6B6B72;
+    --color-text-disabled: #3A3A3E;
+    --color-text-inverse: #1C1C1E;
+    --color-text-on-active: #1C1C1E;
+
+    /* ── Nav Active ── */
+    --color-nav-active-bg: #FFFFFF;
+    --color-nav-active-text: #1C1C1E;
+    --color-nav-text: #A0A0A8;
+    --color-nav-hover-bg: rgba(255, 255, 255, 0.06);
+
+    /* ── Borders ── */
+    --color-border: rgba(255, 255, 255, 0.08);
+    --color-border-light: rgba(255, 255, 255, 0.04);
+
+    /* ── Accent ── */
+    --color-accent: #FFFFFF;
+    --color-accent-hover: #E5E5E5;
+
+    /* ── Button "Create New Task" ── */
+    --color-btn-primary-bg: #FFFFFF;
+    --color-btn-primary-text: #1C1C1E;
+    --color-btn-primary-hover: #E5E5E5;
+
+    /* ── Progress bar ── */
+    --color-progress-track: rgba(255, 255, 255, 0.1);
+    --color-progress-fill: rgba(255, 255, 255, 0.6);
+    --color-progress-fill-cyan: #22D3EE;
+
+    /* ── Upgrade block ── */
+    --color-upgrade-bg: #2A2A2C;
+    --color-upgrade-border: rgba(255, 255, 255, 0.08);
+    --color-upgrade-btn-bg: #3A3A3C;
+    --color-upgrade-btn-text: #FFFFFF;
+
+    /* ── Shadows ── */
+    --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.3);
+    --shadow-sidebar: 1px 0 0 var(--color-border);
+    --shadow-topbar: 0 1px 0 var(--color-border);
+    --shadow-dropdown: 0 8px 32px rgba(0, 0, 0, 0.4);
+    --shadow-panel: -1px 0 0 var(--color-border);
+}

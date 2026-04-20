@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@import './variables.css';
+@import './themes/light.css';
+@import './themes/dark.css';
+@import './reset.css';
+
+/* ── Default theme (dark) ── */
+:root {
+    --color-bg-primary: #1C1C1E;
+    --color-bg-secondary: #252527;
+    --color-bg-elevated: #2A2A2C;
+    --color-bg-sidebar: #252527;
+    --color-bg-topbar: #1C1C1E;
+    --color-bg-card: #2A2A2C;
+    --color-bg-hover: rgba(255, 255, 255, 0.05);
+    --color-bg-active: #FFFFFF;
+    --color-bg-input: #2A2A2C;
+    --color-bg-right-panel: #252527;
+    --color-text-primary: #FFFFFF;
+    --color-text-secondary: #A0A0A8;
+    --color-text-tertiary: #6B6B72;
+    --color-text-disabled: #3A3A3E;
+    --color-text-inverse: #1C1C1E;
+    --color-text-on-active: #1C1C1E;
+    --color-nav-active-bg: #FFFFFF;
+    --color-nav-active-text: #1C1C1E;
+    --color-nav-text: #A0A0A8;
+    --color-nav-hover-bg: rgba(255, 255, 255, 0.06);
+    --color-border: rgba(255, 255, 255, 0.08);
+    --color-border-light: rgba(255, 255, 255, 0.04);
+    --color-accent: #FFFFFF;
+    --color-accent-hover: #E5E5E5;
+    --color-btn-primary-bg: #FFFFFF;
+    --color-btn-primary-text: #1C1C1E;
+    --color-btn-primary-hover: #E5E5E5;
+    --color-progress-track: rgba(255, 255, 255, 0.1);
+    --color-progress-fill: rgba(255, 255, 255, 0.6);
+    --color-progress-fill-cyan: #22D3EE;
+    --color-upgrade-bg: #2A2A2C;
+    --color-upgrade-border: rgba(255, 255, 255, 0.08);
+    --color-upgrade-btn-bg: #3A3A3C;
+    --color-upgrade-btn-text: #FFFFFF;
+    --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.3);
+    --shadow-sidebar: 1px 0 0 var(--color-border);
+    --shadow-topbar: 0 1px 0 var(--color-border);
+    --shadow-dropdown: 0 8px 32px rgba(0, 0, 0, 0.4);
+    --shadow-panel: -1px 0 0 var(--color-border);
+}
+
+.truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
